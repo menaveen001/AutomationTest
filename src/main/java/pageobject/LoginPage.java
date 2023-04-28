@@ -26,6 +26,16 @@ public class LoginPage {
 	@FindBy(xpath = "//input[@value='Login']")
 	private  WebElement loginButton;
 
+	
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']")
+	private WebElement warningMessage;
+	
+	@FindBy(linkText="Forgotten Password")
+	private WebElement forgottenPassword;
+	
+	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
+	private WebElement emailWithConfirmation;
+	
 	public WebElement emailAddressField() {
 
 		return emailAddressField;
@@ -41,4 +51,19 @@ public class LoginPage {
 		return loginButton;
 
 	}
+	
+	public WebElement warningMessage() {
+		return warningMessage;
+		
+	}
+	public WebElement forgottenPassword () {
+		return forgottenPassword;
+	}
+		
+		public WebElement emailWithConfirmation() {
+			return emailWithConfirmation;
+		}
+		
+		
+	
 }

@@ -1,28 +1,65 @@
-17:23:33.813 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-17:23:33.813 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
-17:23:33.813 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
-17:23:33.813 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
-17:23:33.813 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
-17:23:34.287 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-17:23:34.336 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xef740ebff8a34b95
-17:23:34.502 [main] DEBUG tpack.LoginTest - Browser got launched
-17:23:36.502 [main] DEBUG tpack.LoginTest - Navigated to application URL
-17:23:36.560 [main] DEBUG tpack.LoginTest - Clicked on My Account dropdown
-17:23:36.841 [main] DEBUG tpack.LoginTest - Clicked on login option
-17:23:36.911 [main] DEBUG tpack.LoginTest - Email addressed got entered
-17:23:36.954 [main] DEBUG tpack.LoginTest - Password got entered
-17:23:37.360 [main] DEBUG tpack.LoginTest - Clicked on Login Button
-17:23:37.396 [main] DEBUG tpack.LoginTest - User got logged in
-17:23:37.398 [main] INFO  tpack.LoginTest - Login Test got passed
-17:23:37.486 [main] DEBUG tpack.LoginTest - Browser got closed
-17:23:38.188 [main] DEBUG tpack.LoginTest - Browser got launched
-17:23:39.594 [main] DEBUG tpack.LoginTest - Navigated to application URL
-17:23:39.644 [main] DEBUG tpack.LoginTest - Clicked on My Account dropdown
-17:23:39.876 [main] DEBUG tpack.LoginTest - Clicked on login option
-17:23:39.940 [main] DEBUG tpack.LoginTest - Email addressed got entered
-17:23:39.987 [main] DEBUG tpack.LoginTest - Password got entered
-17:23:40.060 [main] DEBUG tpack.LoginTest - Clicked on Login Button
-17:23:40.067 [main] DEBUG tpack.LoginTest - User didn't log in
-17:23:40.068 [main] INFO  tpack.LoginTest - Login Test got passed
-17:23:40.773 [main] DEBUG tpack.RegisterAccountTest - Browser got launched
-17:23:41.478 [main] DEBUG tpack.RegisterAccountTest - Navigated to application URL
+22:57:31.136 [main] DEBUG tpack.RegisterAccountTest - Address 2  address got entered
+22:57:31.197 [main] DEBUG tpack.RegisterAccountTest - City address got entered
+22:57:31.255 [main] DEBUG tpack.RegisterAccountTest - Postal code address got entered
+22:57:34.706 [main] DEBUG tpack.RegisterAccountTest - Country address got entered
+22:57:36.899 [main] DEBUG tpack.RegisterAccountTest - Region address got entered
+22:57:36.940 [main] DEBUG tpack.RegisterAccountTest - Clicked on Continue button
+22:57:40.024 [main] DEBUG tpack.RegisterAccountTest - Clicked on continue delivery details button
+22:57:40.732 [main] DEBUG tpack.RegisterAccountTest - Clicked on continue shiping button
+22:57:42.781 [main] DEBUG tpack.RegisterAccountTest - Clicked on terms and conditions
+22:57:42.830 [main] DEBUG tpack.RegisterAccountTest - Clicked on continue pyment button
+22:57:43.319 [main] DEBUG tpack.RegisterAccountTest - Clicked on confirm order button
+22:57:43.950 [main] DEBUG tpack.RegisterAccountTest - Clicked on continue 
+22:57:43.952 [main] INFO  tpack.RegisterAccountTest - Booking order tests got passes
+22:57:44.031 [main] DEBUG tpack.RegisterAccountTest - Browser got closed
+22:57:44.766 [main] DEBUG tpack.LoginTest - Browser got launched
+22:57:50.100 [main] DEBUG tpack.LoginTest - Navigated to application URL
+22:57:50.138 [main] DEBUG tpack.LoginTest - Clicked on My Account dropdown
+22:57:50.589 [main] DEBUG tpack.LoginTest - Clicked on login option
+22:57:50.659 [main] DEBUG tpack.LoginTest - Email addressed got entered
+22:57:50.712 [main] DEBUG tpack.LoginTest - Password got entered
+22:57:52.354 [main] DEBUG tpack.LoginTest - Clicked on Login Button
+22:57:52.388 [main] DEBUG tpack.LoginTest - User got logged in
+22:57:52.388 [main] INFO  tpack.LoginTest - Login Test got passed
+22:57:52.444 [main] DEBUG tpack.LoginTest - Browser got closed
+22:57:53.153 [main] DEBUG tpack.LoginTest - Browser got launched
+22:57:56.467 [main] DEBUG tpack.LoginTest - Navigated to application URL
+22:57:56.511 [main] DEBUG tpack.LoginTest - Clicked on My Account dropdown
+22:57:56.868 [main] DEBUG tpack.LoginTest - Clicked on login option
+22:57:56.930 [main] DEBUG tpack.LoginTest - Email addressed got entered
+22:57:56.981 [main] DEBUG tpack.LoginTest - Password got entered
+22:57:57.335 [main] DEBUG tpack.LoginTest - Clicked on Login Button
+22:58:07.405 [main] DEBUG tpack.LoginTest - User didn't log in
+22:58:07.405 [main] INFO  tpack.LoginTest - Login Test got passed
+22:58:07.468 [main] DEBUG tpack.LoginTest - Browser got closed
+22:58:08.206 [main] DEBUG tpack.RegisterAccountTest - Browser got launched
+22:58:12.080 [main] DEBUG tpack.RegisterAccountTest - Navigated to application URL
+22:58:12.124 [main] DEBUG tpack.RegisterAccountTest - Clicked on My Account dropdown
+22:58:12.975 [main] DEBUG tpack.RegisterAccountTest - Clicked on register option
+22:58:13.030 [main] DEBUG tpack.RegisterAccountTest - Firstname addressed got entered
+22:58:13.070 [main] DEBUG tpack.RegisterAccountTest - Lastname addressed got entered
+22:58:13.144 [main] DEBUG tpack.RegisterAccountTest - Email addressed got entered
+22:58:13.194 [main] DEBUG tpack.RegisterAccountTest - Telephone addressed got entered
+22:58:13.239 [main] DEBUG tpack.RegisterAccountTest - Password addressed got entered
+22:58:13.280 [main] DEBUG tpack.RegisterAccountTest - Confirm Password addressed got entered
+22:58:13.325 [main] DEBUG tpack.RegisterAccountTest - Clicked on checkBox option
+22:58:13.724 [main] DEBUG tpack.RegisterAccountTest - Clicked on continue button
+22:58:13.755 [main] DEBUG tpack.RegisterAccountTest - Account got created
+22:58:13.971 [main] DEBUG tpack.RegisterAccountTest - Clicked on continue button
+22:58:13.972 [main] INFO  tpack.RegisterAccountTest - RegisterAcoount Test got passed
+22:58:14.030 [main] DEBUG tpack.RegisterAccountTest - Browser got closed
+22:58:14.770 [main] DEBUG tpack.RegisterAccountTest - Browser got launched
+22:58:20.271 [main] DEBUG tpack.RegisterAccountTest - Navigated to application URL
+22:58:20.321 [main] DEBUG tpack.RegisterAccountTest - Clicked on My Account dropdown
+22:58:23.076 [main] DEBUG tpack.RegisterAccountTest - Clicked on register option
+22:58:23.145 [main] DEBUG tpack.RegisterAccountTest - Firstname addressed got entered
+22:58:23.204 [main] DEBUG tpack.RegisterAccountTest - Lastname addressed got entered
+22:58:23.266 [main] DEBUG tpack.RegisterAccountTest - Email addressed got entered
+22:58:23.302 [main] DEBUG tpack.RegisterAccountTest - Telephone addressed got entered
+22:58:23.364 [main] DEBUG tpack.RegisterAccountTest - Password addressed got entered
+22:58:23.411 [main] DEBUG tpack.RegisterAccountTest - Confirm Password addressed got entered
+22:58:23.454 [main] DEBUG tpack.RegisterAccountTest - Clicked on checkBox option
+22:58:24.097 [main] DEBUG tpack.RegisterAccountTest - Clicked on continue button
+22:58:24.131 [main] DEBUG tpack.RegisterAccountTest - Account got created
+22:58:24.458 [main] DEBUG tpack.RegisterAccountTest - Clicked on continue button
+22:58:24.552 [main] DEBUG tpack.RegisterAccountTest - Browser got closed

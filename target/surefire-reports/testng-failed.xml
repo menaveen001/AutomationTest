@@ -6,17 +6,10 @@
       <class name="tpack.RegisterAccountTest">
         <methods>
           <include name="closeBrowser"/>
-          <include name="registerAccount" invocation-numbers="0"/>
+          <include name="registerAccount" invocation-numbers="1"/>
           <include name="OpenApplication"/>
         </methods>
       </class> <!-- tpack.RegisterAccountTest -->
-      <class name="tpack.BookAnItemTest">
-        <methods>
-          <include name="OpenApplication"/>
-          <include name="bookingPhone"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- tpack.BookAnItemTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

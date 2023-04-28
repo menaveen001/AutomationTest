@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class RegisterAccountPage {
 
-	WebDriver driver;
+	public WebDriver driver;
 
 	public RegisterAccountPage(WebDriver driver) {
 
@@ -40,6 +40,31 @@ public class RegisterAccountPage {
 	@FindBy(xpath = "//input[@value='Continue']")
 	private WebElement continueButton;
 
+	@FindBy(xpath = "//input[@name='newsletter' and @value='1']")
+	private WebElement newsLetterField;
+
+	@FindBy(xpath = "//div[@class='alert alert-danger alert-dismissible']")
+	private WebElement warningMessage;
+
+	@FindBy(linkText = "Register")
+
+	private WebElement registerBreadcrum;
+
+	@FindBy(xpath = "//div[contains(text(),'First Name must be between 1 and 32 characters!')]")
+	private WebElement firstNameWarning;
+	
+	@FindBy(xpath="//div[contains(text(),'Last Name must be between 1 and 32 characters!')]")
+	private WebElement lastNmaeWarning;
+	
+	@FindBy(xpath="//div[contains(text(),'E-Mail Address does not appear to be valid!')]")
+	private WebElement emailWarning;
+	
+	@FindBy(xpath="//div[contains(text(),'Telephone must be between 3 and 32 characters!')]")
+    private WebElement telephoneWarning;
+	
+	@FindBy(xpath="//div[contains(text(),'Password must be between 4 and 20 characters!')]")
+	private WebElement passwordWarning;
+	 
 	public WebElement inputFirstNameField() {
 		return inputFirstNameField;
 	}
@@ -72,4 +97,41 @@ public class RegisterAccountPage {
 		return continueButton;
 	}
 
+	public WebElement newsLetterField() {
+		return newsLetterField;
+
+	}
+
+	public WebElement warningMessage() {
+
+		return warningMessage;
+	}
+
+	public WebElement registerBreadcrum() {
+
+		return registerBreadcrum;
+	}
+
+	public WebElement firstNameWarning() {
+		
+		return firstNameWarning;
+	}
+	
+	public WebElement lastNmaeWarning() {
+		
+		return lastNmaeWarning;
+		
+	}
+	public WebElement emailWarning() {
+		
+		return emailWarning;
+	}
+	public WebElement telephoneWarning() {
+		
+		return telephoneWarning;
+	}
+	
+	public WebElement passwordWarning() {
+		return passwordWarning;
+	}
 }

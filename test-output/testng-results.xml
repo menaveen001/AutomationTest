@@ -1,47 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-13T22:52:55 IST" name="Suite" finished-at="2023-04-13T22:53:00 IST" duration-ms="4915">
+  <suite started-at="2023-04-28T22:40:22 IST" name="Suite" finished-at="2023-04-28T22:40:22 IST" duration-ms="0">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@3349e9bb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@6a4f1a55]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-04-13T22:52:55 IST" name="Test" finished-at="2023-04-13T22:53:00 IST" duration-ms="4915">
-      <class name="runner.Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.Runner@3349e9bb]" started-at="2023-04-13T22:52:55 IST" name="setUpClass" finished-at="2023-04-13T22:52:56 IST" duration-ms="483" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@63475ace]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@3349e9bb]" started-at="2023-04-13T22:52:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-13T22:53:00 IST" duration-ms="4371" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Application Login"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.Runner@3349e9bb]" started-at="2023-04-13T22:53:00 IST" name="tearDownClass" finished-at="2023-04-13T22:53:00 IST" duration-ms="35" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- runner.Runner -->
-    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
