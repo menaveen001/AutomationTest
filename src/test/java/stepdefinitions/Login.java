@@ -4,12 +4,15 @@ import java.io.IOException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 import com.aventstack.extentreports.ExtentReports;
 
 import io.cucumber.java.After;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -35,7 +38,7 @@ public class Login extends Base {
 	public void open_any_browser() throws IOException {
 		log = LogManager.getLogger(Login.class.getName());
 		driver = initializeBrowser();
-         log.debug("Browser got lunched");
+		log.debug("Browser got lunched");
 	}
 
 	@And("^Navigate to Login page$")
@@ -80,9 +83,9 @@ public class Login extends Base {
 	}
 
 	@Then("^Verify user should not able to successfully login$")
-	
+
 	public void verify_user_should_not_able_to_successfully_login() {
-        pageBreadcrumb = new PageBreadcrumb(driver);
+		pageBreadcrumb = new PageBreadcrumb(driver);
 		Assert.assertTrue(pageBreadcrumb.loginBreadcrumb().isDisplayed());
 		log.info("Login breadcrumb got displayed");
 	}
@@ -119,7 +122,7 @@ public class Login extends Base {
 
 	@Then("^Navigate to Forgotten Password page$")
 	public void navigate_to_forgotten_password_page() {
-		   pageBreadcrumb = new PageBreadcrumb(driver);
+		pageBreadcrumb = new PageBreadcrumb(driver);
 		Assert.assertTrue(pageBreadcrumb.forgottenPasswordBreadCrumb().isDisplayed());
 		log.info("Forgotten password breadcrumb got displayed");
 
@@ -127,7 +130,7 @@ public class Login extends Base {
 
 	@Then("^Navigate to the Login page$")
 	public void navigate_to_the_login_page() {
-		   pageBreadcrumb = new PageBreadcrumb(driver);
+		pageBreadcrumb = new PageBreadcrumb(driver);
 		Assert.assertTrue(pageBreadcrumb.loginBreadcrumb().isDisplayed());
 		log.info("Login breadcrumb got displayed");
 
@@ -142,7 +145,7 @@ public class Login extends Base {
 
 	@And("^Click on continue button$")
 	public void click_on_continue_button() throws Throwable {
-	//	forgotPasswordPage = new ForgottenPasswordPage(driver);
+		forgotPasswordPage = new ForgottenPasswordPage(driver);
 		forgotPasswordPage.continueButton().click();
 		log.debug("Clicked on continue");
 	}
@@ -156,7 +159,7 @@ public class Login extends Base {
 
 	@When("^Use enter Invaild Email as \"([^\"]*)\"$")
 	public void use_enter_invaild_email_as_something(String email) {
-		//forgotPasswordPage = new ForgottenPasswordPage(driver);
+		forgotPasswordPage = new ForgottenPasswordPage(driver);
 		forgotPasswordPage.inputEmail().sendKeys(email);
 		log.debug("Email address field got entered");
 	}
@@ -168,15 +171,18 @@ public class Login extends Base {
 		log.info("Error warming message got displayed");
 	}
 
-	
-
 	@After("@log")
-	public  void tearDown() {
-		driver.close();
-		log.debug("Browser got closed");
+	public  void tearDown(Scenario scenario) throws IOException {
+		 String testName = scenario.getName();
+	if (scenario.isFailed()) {
+		TakesScreenshot ts = (TakesScreenshot)driver;
+		byte[] src = ts.getScreenshotAs(OutputType.BYTES);
+		scenario.attach(src, "image/png", testName);
+		}
+	driver.close();
+	log.debug("Browser got closed");
 		
 
 	}
-	
 
 }
