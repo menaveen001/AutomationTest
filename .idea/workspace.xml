@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e83788d8-9dd6-4059-8d98-6f5114189505" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/logs/prints.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/extentreport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/extentreport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/registerAccount.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/registerAccount.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/listeners/Listeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/listeners/Listeners.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageobject/AccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/AccountPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageobject/AccountSuccessPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/AccountSuccessPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageobject/ForgottenPasswordPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/ForgottenPasswordPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageobject/Header.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/Header.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageobject/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/LandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageobject/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageobject/PageBreadcrumb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/PageBreadcrumb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageobject/RegisterAccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/RegisterAccountPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageobject/SearchResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/SearchResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utilities/ExtentReporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utilities/ExtentReporter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/LogOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/LogOut.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tpack/BookAnItemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tpack/BookAnItemTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tpack/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tpack/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tpack/RegisterAccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tpack/RegisterAccountTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2P8wDbDQTdVKEfWgKfkgYbbFGyx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "F:/NewProject/AutomationTest"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="AutomationTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="AutomationTest" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e83788d8-9dd6-4059-8d98-6f5114189505" name="Changes" comment="" />
+      <created>1682851900768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682851900768</updated>
+    </task>
+    <servers />
+  </component>
+</project>

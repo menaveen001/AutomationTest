@@ -18,11 +18,11 @@ import resources.Base;
 
 public class LoginTest extends Base {
 
-	public WebDriver driver;
-	Logger log;
+	public static WebDriver driver;
+	static Logger log;
 
 	@BeforeMethod
-	public void OpenApplication() throws IOException {
+	public static void OpenApplication() throws IOException {
 		log = LogManager.getLogger(LoginTest.class.getName());
 		driver = initializeBrowser();
 		log.debug("Browser got launched");
@@ -31,7 +31,8 @@ public class LoginTest extends Base {
 	}
 
 	@Test(dataProvider = "loginData")
-	public void login(String email, String Passsword, String expectedResult) throws IOException, InterruptedException {
+	public static void login(String email, String Passsword, String expectedResult)
+			throws IOException, InterruptedException {
 
 		LandingPage landingPage = new LandingPage(driver);
 		landingPage.myAccountDropdown().click();
@@ -67,15 +68,15 @@ public class LoginTest extends Base {
 	}
 
 	@DataProvider
-	public Object[][] loginData() {
+	public static Object[][] loginData() {
 
-		Object[][] data = { { "navi@gmail.com", "n1234", "Successfull" }, { "nav@gmail.com", "n1234", "Failure" } };
+		Object[][] data = { { "navi@gmail.com", "n1234", "Successfull" },{ "navi@gmail.com", "n34", "Failure" } };
 		return data;
 
 	}
 
 	@AfterMethod
-	public void closeBrowse() {
+	public static void closeBrowse() {
 
 		driver.close();
 		log.debug("Browser got closed");

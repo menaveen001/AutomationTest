@@ -4,8 +4,8 @@ import java.io.IOException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -45,7 +45,7 @@ public class RegisterAccountTest extends Base {
 		log.debug("Firstname addressed got entered");
 		registerAccounPage.inputLastNameField().sendKeys(lastName);
 		log.debug("Lastname addressed got entered");
-		registerAccounPage.inputEmailField().sendKeys(email);
+		registerAccounPage.inputEmailField().sendKeys(System.currentTimeMillis()+email);
 		log.debug("Email addressed got entered");
 		registerAccounPage.InputTelephonField().sendKeys(telephon);
 		log.debug("Telephone addressed got entered");
@@ -92,5 +92,4 @@ public class RegisterAccountTest extends Base {
 		return data;
 
 	}
-
 }

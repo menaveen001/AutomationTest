@@ -18,47 +18,49 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
 
-	public Properties prop;
-	
-@SuppressWarnings("deprecation")
-public WebDriver initializeBrowser() throws IOException {
-	prop = new Properties();
-	String propertiesPath = System.getProperty("user.dir")+"\\src\\main\\java\\resources\\data.properties";
-	FileInputStream fis = new FileInputStream(propertiesPath);
-	prop.load(fis);
-	
-	String browserName = prop.getProperty("browser");
+	public static Properties prop;
+
+	@SuppressWarnings("deprecation")
+	public static WebDriver initializeBrowser() throws IOException {
+		prop = new Properties();
+		String propertiesPath = System.getProperty("user.dir") + "\\src\\main\\java\\resources\\data.properties";
+		FileInputStream fis = new FileInputStream(propertiesPath);
+		prop.load(fis);
+
+		String browserName = prop.getProperty("browser");
 		WebDriver driver = null;
-	
-		
-		if(browserName.equalsIgnoreCase("chrome")) {
-			
+
+		if (browserName.equalsIgnoreCase("chrome")) {
+
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-			
-		}else if(browserName.equalsIgnoreCase("firefox")) {
-			
+
+		} else if (browserName.equalsIgnoreCase("firefox")) {
+
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
-			
-		}else if(browserName.equalsIgnoreCase("ie")) {
-			
+
+		} else if (browserName.equalsIgnoreCase("ie")) {
+
 			WebDriverManager.iedriver().setup();
 			driver = new InternetExplorerDriver();
-			
+
 		}
-		
+
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
 		return driver;
-		
+
 	}
-public String takeScreenshot(String testName,WebDriver driver) throws IOException {
-	
-	File SourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-	String destinationFilePath = System.getProperty("user.dir")+"\\screenshots\\"+testName+".png";
-	FileUtils.copyFile(SourceFile,new File(destinationFilePath));
-	  return destinationFilePath;
-}   
+
+	public String takeScreenshot(String testName, WebDriver driver) throws IOException {
+
+		File SourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		String destinationFilePath = System.getProperty("user.dir") + "\\screenshots\\" + testName + ".png";
+		FileUtils.copyFile(SourceFile, new File(destinationFilePath));
+		return destinationFilePath;
+	}
+
+
 }
