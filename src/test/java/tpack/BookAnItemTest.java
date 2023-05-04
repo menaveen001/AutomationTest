@@ -5,7 +5,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -101,16 +103,22 @@ public class BookAnItemTest extends Base {
 
 			Thread.sleep(3000);
 
-			Actions action = new Actions(driver);
-
-			action.moveToElement(accountPage.countryOption()).click().sendKeys("i").sendKeys(Keys.DOWN).click().build()
-					.perform();
-			log.debug("Country address got entered");
-			Thread.sleep(2000);
-			action.moveToElement(accountPage.regionOption()).click().sendKeys("u").sendKeys(Keys.DOWN).click().build()
-					.perform();
-			log.debug("Region address got entered");
-
+//			Actions action = new Actions(driver);
+//
+//			action.moveToElement(accountPage.countryOption()).click().sendKeys("i").sendKeys(Keys.DOWN).click().build()
+//					.perform();
+//			log.debug("Country address got entered");
+//			Thread.sleep(2000);
+//			action.moveToElement(accountPage.regionOption()).click().sendKeys("u").sendKeys(Keys.DOWN).click().build()
+//					.perform();
+//			log.debug("Region address got entered");
+			WebElement selectCountry = accountPage.countryOption();
+			Select selectc = new Select(selectCountry);
+			selectc.selectByVisibleText("India");
+		    WebElement selectResion = accountPage.regionOption();
+			Select select = new Select(selectResion);
+			select.selectByVisibleText("Uttar Pradesh");
+			Thread.sleep(3000);
 			accountPage.continueButtonOtions().click();
 			log.debug("Clicked on Continue button");
 
