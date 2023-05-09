@@ -1,8 +1,8 @@
-F:\NewProject\AutomationTest\src\test\java\runner\Runner.java
-F:\NewProject\AutomationTest\src\test\java\stepdefinitions\LogOut.java
-F:\NewProject\AutomationTest\src\test\java\stepdefinitions\Register.java
-F:\NewProject\AutomationTest\src\test\java\tpack\LoginTest.java
-F:\NewProject\AutomationTest\src\test\java\tpack\BookAnItemTest.java
-F:\NewProject\AutomationTest\src\test\java\stepdefinitions\Login.java
-F:\NewProject\AutomationTest\src\test\java\stepdefinitions\Search.java
-F:\NewProject\AutomationTest\src\test\java\tpack\RegisterAccountTest.java
+N:\Project\AutomationTest\src\test\java\tpack\LoginTest.java
+N:\Project\AutomationTest\src\test\java\stepdefinitions\Search.java
+N:\Project\AutomationTest\src\test\java\runner\Runner.java
+N:\Project\AutomationTest\src\test\java\stepdefinitions\Register.java
+N:\Project\AutomationTest\src\test\java\stepdefinitions\Login.java
+N:\Project\AutomationTest\src\test\java\tpack\BookAnItemTest.java
+N:\Project\AutomationTest\src\test\java\tpack\RegisterAccountTest.java
+N:\Project\AutomationTest\src\test\java\stepdefinitions\LogOut.java

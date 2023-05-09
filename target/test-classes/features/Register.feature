@@ -1,15 +1,13 @@
 Feature: Register functionality
 @register @reg1
-Scenario: Validate Register an Account by providing only the Mandatory fields
+Scenario Outline: Validate Register an Account by providing only the Mandatory fields
 Given Open the appliction in any Browser
-
 And Click on My Account Drop menu
 And Clicked on Register option
 When Enter the below data new Account Details into the Mandatory Fields 
-
 |firstName		|Arun								|
 |lastName			|Pal								|
-|email				|arun46524@gmail.com|
+|email				|arun@gmail.com								|
 |telephone		|123456							|
 |password			|second@123					|
 
@@ -45,14 +43,14 @@ And Click on My Account Drop menu
 And Clicked on Register option
 When Enter the below data new Account Details into the Mandatory Fields 
 
-|firstName		|Arun								|
+|firstName		|Arun								| 
 |lastName			|Pal								|
 |email				|arun46524@gmail.com|
 |telephone		|123456							|
 |password			|second@123					|
 And Select Newsletter Subscribe Fields
 And Click on Continue button
-Then Account shoud not created
+Then Account should not created
 And User should see Warning message You must agree to the Privacy policy
 
 @register @reg4
@@ -77,7 +75,7 @@ When Enter new Account Details into the Mandatory Fields the below data but skip
 And Select Newsletter Subscribe Fields
 And Select Privacy Policy Fields
 And Click on Continue button
-Then Account shoud not created
+Then Account should not created
 And User should see the Warning message to fill the First name
 
 
@@ -94,7 +92,7 @@ When Enter new Account Details into the Mandatory Fields the below data but skip
 And Select Newsletter Subscribe Fields
 And Select Privacy Policy Fields
 And Click on Continue button
-Then Account shoud not created
+Then Account should not created
 And User should see the Warning message to fill the Last name
 
 @register @reg7
@@ -110,7 +108,7 @@ When Enter new Account Details into the Mandatory Fields the below data but skip
 And Select Newsletter Subscribe Fields
 And Select Privacy Policy Fields
 And Click on Continue button
-Then Account shoud not created
+Then Account should not created
 And User should see the Warning message to fill the Email
 
 @register @reg8
@@ -123,10 +121,11 @@ When Enter new Account Details into the Mandatory Fields the below data but skip
 |lastName			  |Pal								|
 |email					|arun46524@gmail.com|
 |password			  |second@123					|
+
 And Select Newsletter Subscribe Fields
 And Select Privacy Policy Fields
 And Click on Continue button
-Then Account shoud not created
+Then Account should not created
 And User should see the Warning message to fill the Telephone
 
 @register @reg9
@@ -142,6 +141,47 @@ When Enter new Account Details into the Mandatory Fields the below data but skip
 And Select Newsletter Subscribe Fields
 And Select Privacy Policy Fields
 And Click on Continue button
-Then Account shoud not created
+Then Account should not created
 And User should see the Warning message to fill the Password
+
+@register @reg10
+Scenario: Validate Register an account by providing all the Mandatory fields but not provide same password in Password confirm fields
+Given Open the appliction in any Browser
+And Click on My Account Drop menu
+And Clicked on Register option
+When Enter the below data new Account Details into the Mandatory Field
+|firstName		|Arun								|
+|lastName			|Pal								|
+|email				|arun@gmail.com								|
+|telephone		|123456							|
+|password			|second@123					|
+|confPass     |123                |
+And Select Newsletter Subscribe Fields
+And Select Privacy Policy Fields
+And Click on Continue button
+Then Account should not created
+And User should see the Warning message Password confirmation does not match password!
+
+
+@register @reg11
+Scenario: Validate Register an Account by providing all fields but use invalid formate of Email
+Given Open the appliction in any Browser
+And Click on My Account Drop menu
+And Clicked on Register option
+When Enter the below data new Account Details into the Mandatory Fields 
+|firstName		|Arun								|
+|lastName			|Pal								|
+|email				|arun								|
+|telephone		|123456							|
+|password			|second@123					|
+And Select Privacy Policy Fields
+And Click on Continue button
+Then Account should not created
+And User should see the Warning message of invalid formate of Email
+
+
+
+
+
+
 

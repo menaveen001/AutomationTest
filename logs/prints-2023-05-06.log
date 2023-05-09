@@ -1,0 +1,107 @@
+12:56:53.956 [TestNG-tests-1] DEBUG stepdefinitions.Register - Privacy policy got Selected
+12:56:54.403 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on Countinue button
+12:56:54.446 [TestNG-tests-1] INFO  stepdefinitions.Register - Account success status got Displayed
+12:56:54.682 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on Countinue button
+12:56:54.778 [TestNG-tests-1] DEBUG stepdefinitions.Register - Browser got closed
+12:56:55.544 [TestNG-tests-1] DEBUG stepdefinitions.Register - Browser got lunched
+12:56:56.627 [TestNG-tests-1] DEBUG stepdefinitions.Register - Navigate to the Appliction URL
+12:56:56.685 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on myAccount Dropdown
+12:56:57.063 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on Register option 
+12:57:00.143 [TestNG-tests-1] DEBUG stepdefinitions.Register - First name address got Entered
+12:57:00.194 [TestNG-tests-1] DEBUG stepdefinitions.Register - Last name address got Entered
+12:57:00.264 [TestNG-tests-1] DEBUG stepdefinitions.Register - Email address got Entered
+12:57:00.307 [TestNG-tests-1] DEBUG stepdefinitions.Register - Telephone address got Entered
+12:57:00.354 [TestNG-tests-1] DEBUG stepdefinitions.Register - Password address got Entered
+12:57:00.402 [TestNG-tests-1] DEBUG stepdefinitions.Register - Confirm password address got Entered
+12:57:00.482 [TestNG-tests-1] DEBUG stepdefinitions.Register - News letter field got Selected
+12:57:00.540 [TestNG-tests-1] DEBUG stepdefinitions.Register - Privacy policy got Selected
+12:57:00.956 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on Countinue button
+12:57:01.009 [TestNG-tests-1] INFO  stepdefinitions.Register - Account success status got Displayed
+12:57:01.221 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on Countinue button
+12:57:01.321 [TestNG-tests-1] DEBUG stepdefinitions.Register - Browser got closed
+12:57:02.108 [TestNG-tests-1] DEBUG stepdefinitions.Register - Browser got lunched
+12:57:03.196 [TestNG-tests-1] DEBUG stepdefinitions.Register - Navigate to the Appliction URL
+12:57:03.248 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on myAccount Dropdown
+12:57:04.262 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on Register option 
+12:57:07.336 [TestNG-tests-1] DEBUG stepdefinitions.Register - First name address got Entered
+12:57:07.384 [TestNG-tests-1] DEBUG stepdefinitions.Register - Last name address got Entered
+12:57:07.455 [TestNG-tests-1] DEBUG stepdefinitions.Register - Email address got Entered
+12:57:07.496 [TestNG-tests-1] DEBUG stepdefinitions.Register - Telephone address got Entered
+12:57:07.539 [TestNG-tests-1] DEBUG stepdefinitions.Register - Password address got Entered
+12:57:07.582 [TestNG-tests-1] DEBUG stepdefinitions.Register - Confirm password address got Entered
+12:57:07.622 [TestNG-tests-1] DEBUG stepdefinitions.Register - News letter field got Selected
+12:57:07.838 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on Countinue button
+12:57:07.903 [TestNG-tests-1] INFO  stepdefinitions.Register - Register breadcrum got Displayed
+12:57:07.921 [TestNG-tests-1] INFO  stepdefinitions.Register - Select Privacy policy Warning got Displayed
+12:57:08.021 [TestNG-tests-1] DEBUG stepdefinitions.Register - Browser got closed
+12:57:08.815 [TestNG-tests-1] DEBUG stepdefinitions.Register - Browser got lunched
+12:57:10.021 [TestNG-tests-1] DEBUG stepdefinitions.Register - Navigate to the Appliction URL
+12:57:10.082 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on myAccount Dropdown
+12:57:10.493 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on Register option 
+12:57:13.735 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on Countinue button
+12:57:13.779 [TestNG-tests-1] INFO  stepdefinitions.Register - Select Privacy policy Warning got Displayed
+12:57:13.802 [TestNG-tests-1] INFO  stepdefinitions.Register - Enter First name warning got Displayed
+12:57:13.819 [TestNG-tests-1] INFO  stepdefinitions.Register - Enter Last nmae warning got Displayed
+12:57:13.835 [TestNG-tests-1] INFO  stepdefinitions.Register - Enter Email warning got Displayed
+12:57:13.852 [TestNG-tests-1] INFO  stepdefinitions.Register - Enter Telephone warning got Displayed
+12:57:13.875 [TestNG-tests-1] INFO  stepdefinitions.Register - Enter password warning got Displayed
+12:57:13.947 [TestNG-tests-1] DEBUG stepdefinitions.Register - Browser got closed
+12:57:14.677 [TestNG-tests-1] DEBUG stepdefinitions.Register - Browser got lunched
+12:57:16.467 [TestNG-tests-1] DEBUG stepdefinitions.Register - Navigate to the Appliction URL
+12:57:16.526 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on myAccount Dropdown
+12:57:17.020 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on Register option 
+12:57:20.090 [TestNG-tests-1] DEBUG stepdefinitions.Register - Last name address got Entered
+12:57:20.167 [TestNG-tests-1] DEBUG stepdefinitions.Register - Email address got Entered
+12:57:20.206 [TestNG-tests-1] DEBUG stepdefinitions.Register - Telephone address got Entered
+12:57:20.251 [TestNG-tests-1] DEBUG stepdefinitions.Register - Password address got Entered
+12:57:20.298 [TestNG-tests-1] DEBUG stepdefinitions.Register - Confirm password address got Entered
+12:57:20.345 [TestNG-tests-1] DEBUG stepdefinitions.Register - News letter field got Selected
+12:57:20.417 [TestNG-tests-1] DEBUG stepdefinitions.Register - Privacy policy got Selected
+12:57:20.696 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on Countinue button
+12:57:20.736 [TestNG-tests-1] INFO  stepdefinitions.Register - Register breadcrum got Displayed
+12:57:20.766 [TestNG-tests-1] INFO  stepdefinitions.Register - Enter First name warning got Displayed
+12:57:20.870 [TestNG-tests-1] DEBUG stepdefinitions.Register - Browser got closed
+12:57:21.703 [TestNG-tests-1] DEBUG stepdefinitions.Register - Browser got lunched
+12:57:23.256 [TestNG-tests-1] DEBUG stepdefinitions.Register - Navigate to the Appliction URL
+12:57:23.314 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on myAccount Dropdown
+12:57:23.679 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on Register option 
+12:57:26.747 [TestNG-tests-1] DEBUG stepdefinitions.Register - First name address got Entered
+12:57:26.831 [TestNG-tests-1] DEBUG stepdefinitions.Register - Email address got Entered
+12:57:26.883 [TestNG-tests-1] DEBUG stepdefinitions.Register - Telephone address got Entered
+12:57:26.931 [TestNG-tests-1] DEBUG stepdefinitions.Register - Password address got Entered
+12:57:26.975 [TestNG-tests-1] DEBUG stepdefinitions.Register - Confirm password address got Entered
+12:57:27.010 [TestNG-tests-1] DEBUG stepdefinitions.Register - News letter field got Selected
+12:57:27.048 [TestNG-tests-1] DEBUG stepdefinitions.Register - Privacy policy got Selected
+12:57:27.311 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on Countinue button
+12:57:27.365 [TestNG-tests-1] INFO  stepdefinitions.Register - Register breadcrum got Displayed
+12:57:27.385 [TestNG-tests-1] INFO  stepdefinitions.Register - Enter Last name warning got Displayed
+12:57:27.475 [TestNG-tests-1] DEBUG stepdefinitions.Register - Browser got closed
+12:57:28.256 [TestNG-tests-1] DEBUG stepdefinitions.Register - Browser got lunched
+12:57:29.591 [TestNG-tests-1] DEBUG stepdefinitions.Register - Navigate to the Appliction URL
+12:57:29.652 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on myAccount Dropdown
+12:57:30.362 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on Register option 
+12:57:33.433 [TestNG-tests-1] DEBUG stepdefinitions.Register - First name address got Entered
+12:57:33.485 [TestNG-tests-1] DEBUG stepdefinitions.Register - Last namme address got Entered
+12:57:33.524 [TestNG-tests-1] DEBUG stepdefinitions.Register - Telephone address got Entered
+12:57:33.571 [TestNG-tests-1] DEBUG stepdefinitions.Register - Password address got Entered
+12:57:33.617 [TestNG-tests-1] DEBUG stepdefinitions.Register - Confirm password address got Entered
+12:57:33.652 [TestNG-tests-1] DEBUG stepdefinitions.Register - News letter field got Selected
+12:57:33.706 [TestNG-tests-1] DEBUG stepdefinitions.Register - Privacy policy got Selected
+12:57:33.998 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on Countinue button
+12:57:34.047 [TestNG-tests-1] INFO  stepdefinitions.Register - Register breadcrum got Displayed
+12:57:34.081 [TestNG-tests-1] INFO  stepdefinitions.Register - Enter email warning got Displayed
+12:57:34.201 [TestNG-tests-1] DEBUG stepdefinitions.Register - Browser got closed
+12:57:34.998 [TestNG-tests-1] DEBUG stepdefinitions.Register - Browser got lunched
+12:57:37.600 [TestNG-tests-1] DEBUG stepdefinitions.Register - Navigate to the Appliction URL
+12:57:37.656 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on myAccount Dropdown
+12:57:38.175 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on Register option 
+12:57:41.274 [TestNG-tests-1] DEBUG stepdefinitions.Register - First name address got Entered
+12:57:41.327 [TestNG-tests-1] DEBUG stepdefinitions.Register - Last namme address got Entered
+12:57:41.399 [TestNG-tests-1] DEBUG stepdefinitions.Register - Email address got Entered
+12:57:41.450 [TestNG-tests-1] DEBUG stepdefinitions.Register - Password address got Entered
+12:57:41.500 [TestNG-tests-1] DEBUG stepdefinitions.Register - Confirm password address got Entered
+12:57:41.558 [TestNG-tests-1] DEBUG stepdefinitions.Register - News letter field got Selected
+12:57:41.626 [TestNG-tests-1] DEBUG stepdefinitions.Register - Privacy policy got Selected
+12:57:41.869 [TestNG-tests-1] DEBUG stepdefinitions.Register - Clicked on Countinue button
+12:57:41.916 [TestNG-tests-1] INFO  stepdefinitions.Register - Register breadcrum got Displayed
+12:57:41.937 [TestNG-tests-1] INFO  stepdefinitions.Register - Enter Telephone warning got Displayed

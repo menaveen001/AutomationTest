@@ -1,6 +1,7 @@
 package stepdefinitions;
 
 import java.io.IOException;
+import java.util.List;
 import java.util.Map;
 
 import org.apache.logging.log4j.LogManager;
@@ -57,6 +58,8 @@ public class Register extends Base {
 	public void enter_the_below_data_new_account_details_into_the_mandatory_fields(DataTable data)
 			throws InterruptedException {
 		Map<String, String> dataMap = data.asMap(String.class, String.class);
+		//List<Map<String, String>> dataMap = data.asMaps(String.class, String.class);
+	      
 		register = new RegisterAccountPage(driver);
 		register.inputFirstNameField().sendKeys(dataMap.get("firstName"));
 		log.debug("First name address got Entered");
@@ -70,8 +73,10 @@ public class Register extends Base {
 		log.debug("Password address got Entered");
 		register.inputConfirmPasswoedField().sendKeys(dataMap.get("password"));
 		log.debug("Confirm password address got Entered");
-	}
-
+		
+	      }
+	
+	
 	@And("^Select Privacy Policy Fields$")
 	public void select_privacy_policy_fields() {
 
@@ -119,8 +124,8 @@ public class Register extends Base {
 
 	}
 
-	@Then("^Account shoud not created$")
-	public void Account_shoud_not_created() {
+	@Then("^Account should not created$")
+	public void Account_should_not_created() {
 
 		Assert.assertTrue(register.registerBreadcrum().isDisplayed());
 		log.info("Register breadcrum got Displayed");
@@ -257,9 +262,45 @@ public class Register extends Base {
 	public void user_should_see_the_Waring_message_to_fill_the_Password() {
 		
 		Assert.assertTrue(register.passwordWarning().isDisplayed());
+		log.debug("Password warning message got displayed");
 	}
 	
-	@After("@reg")
+@And("^User should see the Warning message of invalid formate of Email$")
+public void User_should_see_the_Warning_message_of_invalid_formate_of_Email() {
+	
+	 String validEmailError = register.inputEmailField().getAttribute("validationMessage");
+	  Assert.assertTrue( validEmailError.contains("Please include an '@' in the email address"));
+	  log.debug("Provide valid formate of email got displayed");
+	 
+	
+	
+}
+@When("^Enter the below data new Account Details into the Mandatory Field$")
+public void enter_the_below_data_new_account_details_into_the_mandatory_field(DataTable data)
+		throws InterruptedException {
+	Map<String, String> dataMap = data.asMap(String.class, String.class);
+	register = new RegisterAccountPage(driver);
+	register.inputFirstNameField().sendKeys(dataMap.get("firstName"));
+	log.debug("First name address got Entered");
+	register.inputLastNameField().sendKeys(dataMap.get("lastName"));
+	log.debug("Last name address got Entered");
+	register.inputEmailField().sendKeys(System.currentTimeMillis() + dataMap.get("email"));
+	log.debug("Email address got Entered");
+	register.InputTelephonField().sendKeys(dataMap.get("telephone"));
+	log.debug("Telephone address got Entered");
+	register.inputPasswordField().sendKeys(dataMap.get("password"));
+	log.debug("Password address got Entered");
+	register.inputConfirmPasswoedField().sendKeys(dataMap.get("confPass"));
+	log.debug("Confirm password address got Entered");
+}
+@And("^User should see the Warning message Password confirmation does not match password!$")
+public void user_should_see_the_warning_message_password_confirmation_does_not_match_password(){
+      boolean message = register.passwordMatchErrore().isDisplayed();
+         Assert.assertTrue(message);
+         log.info("Password not match error got displayed");
+}
+	
+	@After("@register")
 	public  void tearDown(Scenario scenario) throws IOException {
 		 String testName = scenario.getName();
 			if (scenario.isFailed()) {

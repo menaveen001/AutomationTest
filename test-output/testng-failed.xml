@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="runner.Runner">
+      <class name="tpack.BookAnItemTest">
         <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0 20"/>
-          <include name="tearDownClass"/>
+          <include name="OpenApplication"/>
+          <include name="bookingPhone"/>
+          <include name="close"/>
         </methods>
-      </class> <!-- runner.Runner -->
+      </class> <!-- tpack.BookAnItemTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

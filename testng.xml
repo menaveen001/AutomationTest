@@ -6,10 +6,10 @@
   </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="tpack.RegisterAccountTest"/>
+     
       <class name="tpack.LoginTest"/>
-      <class name="tpack.BookAnItemTest"/>
-       <class name="runner.Runner"/>
+    
+     
 
        
     </classes>

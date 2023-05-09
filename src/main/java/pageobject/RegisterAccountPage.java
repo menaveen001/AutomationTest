@@ -64,6 +64,11 @@ public class RegisterAccountPage {
 	
 	@FindBy(xpath="//div[contains(text(),'Password must be between 4 and 20 characters!')]")
 	private WebElement passwordWarning;
+	
+	
+	@FindBy(xpath = "//div[contains(text(),'Password confirmation does not match password!')]")
+	private WebElement passwordMatchError;
+	
 	 
 	public WebElement inputFirstNameField() {
 		return inputFirstNameField;
@@ -133,5 +138,8 @@ public class RegisterAccountPage {
 	
 	public WebElement passwordWarning() {
 		return passwordWarning;
+	}
+	public WebElement passwordMatchErrore() {
+		return passwordMatchError;
 	}
 }
