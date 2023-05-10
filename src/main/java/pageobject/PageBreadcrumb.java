@@ -21,6 +21,12 @@ public class PageBreadcrumb {
 	private WebElement loginBreadcrumb;
 	@FindBy(linkText = "Forgotten Password")
 	private WebElement forgottenPasswordBreadCrumb;
+	
+	@FindBy(linkText = "Shopping Cart")
+	private WebElement shoppingCartBreadCrumb;
+	
+	@FindBy(linkText = "Checkout")
+	private WebElement checkoutBreadCrumb;
 
 	public WebElement logoutBreadcrumb() {
 		return logoutBreadcrumb;
@@ -35,4 +41,11 @@ public class PageBreadcrumb {
 
 		return forgottenPasswordBreadCrumb;
 	}
+	public  WebElement shoppingCartBreadCrumb() {
+		return shoppingCartBreadCrumb;
+	}
+	public WebElement checkoutBreadCrumb() {
+		return checkoutBreadCrumb;
+	}
+	
 }

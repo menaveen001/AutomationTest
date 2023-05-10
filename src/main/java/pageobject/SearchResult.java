@@ -15,8 +15,15 @@ public class SearchResult {
 	}
 	@FindBy(linkText = "iPhone")
 	private WebElement iphoneIsDisplay;
+	
+	@FindBy(linkText = "iMac")
+	private WebElement iMack;
 	public WebElement iphoneIsDisplay() {
 
 		return iphoneIsDisplay;
+	}
+	
+	public WebElement iMac() {
+		return iMack;
 	}
 }
